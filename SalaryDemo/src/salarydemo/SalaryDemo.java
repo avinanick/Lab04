@@ -15,11 +15,11 @@ public class SalaryDemo
 {
    public static void main(String[] args)
    {
-      Employee[] staff = new Employee[3];
+      Employee[] staff = new Employee[4];
       staff[0] = new HourlyEmployee("Morgan, Harry", 30);
       staff[1] = new SalariedEmployee("Lin, Sally", 52000); 
       staff[2] = new Manager("Smith, Mary", 104000, 50);
-      
+      staff[3] = new StudentEmployee("Baker, Jason",10.50);      
       Scanner in = new Scanner(System.in);
       for (Employee e : staff)
       {
